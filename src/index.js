@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Confetti from "react-confetti";
 import "./styles.css";
+import greet from "./greet";
 
-const GreetingMessage = "";
+const GreetingMessage = greet("Aleia");
 
 function App() {
   return (
